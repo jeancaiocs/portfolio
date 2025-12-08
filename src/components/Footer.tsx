@@ -15,8 +15,7 @@ export const Footer = () => {
             className="flex items-center gap-2 text-muted-foreground text-sm"
           >
             <span>© {currentYear} Jean Caio Casagrande Santos.</span>
-            <span className="hidden sm:inline">Feito com</span>
-            <Heart className="w-4 h-4 text-primary hidden sm:inline animate-pulse-glow" />
+            
           </motion.div>
 
           <motion.div

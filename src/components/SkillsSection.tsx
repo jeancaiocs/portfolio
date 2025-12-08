@@ -5,7 +5,7 @@ const techSkills = [
   { name: "Java", level: 85, icon: "☕" },
   { name: "Spring Boot", level: 80, icon: "🍃" },
   { name: "APIs REST", level: 85, icon: "🔗" },
-  { name: "MySQL", level: 75, icon: "🗄️" },
+  { name: "PostgreSQL", level: 75, icon: "🗄️" },
   { name: "JPA/Hibernate", level: 70, icon: "📦" },
   { name: "Maven", level: 75, icon: "🔧" },
   { name: "Docker", level: 60, icon: "🐳" },

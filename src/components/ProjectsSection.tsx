@@ -5,26 +5,26 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "API de Gerenciamento de Usuários",
+    title: "SmartMarket – Sistema Completo de Mercado",
     description:
-      "API REST completa para gerenciamento de usuários com autenticação JWT, CRUD completo e documentação Swagger.",
-    technologies: ["Java", "Spring Boot", "MySQL", "JWT", "Swagger"],
+      "Sistema de mercado com cadastro de usuários, produtos, carrinho e integração com banco de dados.",
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "JPA", "Lombok"],
     githubUrl: "https://github.com/jeancaiocs",
     liveUrl: null,
   },
   {
-    title: "Sistema de Controle de Estoque",
+    title: "FinCas - Controle Financeiro",
     description:
-      "Backend para controle de estoque com funcionalidades de entrada/saída de produtos, relatórios e alertas de estoque baixo.",
-    technologies: ["Java", "Spring Boot", "JPA", "PostgreSQL", "Docker"],
+      "Aplicação completa para gestão financeira pessoal, com cadastro de usuários, controle de entradas e saídas, categorias, metas e dashboard com gráficos.",
+    technologies: ["Java", "Spring Boot", "JWT", "PostgreSQL", "React", "TypeScript", "Docker"],
     githubUrl: "https://github.com/jeancaiocs",
     liveUrl: null,
   },
   {
-    title: "API de E-commerce",
+    title: "Portfólio Profissional – Jean Caio",
     description:
-      "Microsserviço para plataforma de e-commerce com gerenciamento de produtos, carrinho de compras e processamento de pedidos.",
-    technologies: ["Java", "Spring Boot", "Maven", "MySQL", "REST"],
+      "Site pessoal desenvolvido para apresentar minhas habilidades, trajetória, projetos e formas de contato. Construído com foco em performance, animações responsivas e design moderno.",
+    technologies: ["React", "TypeScript", "Vite", "TailwindCSS", "Framer Motion"],
     githubUrl: "https://github.com/jeancaiocs",
     liveUrl: null,
   },

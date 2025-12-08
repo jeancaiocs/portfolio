@@ -49,23 +49,27 @@ export const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           {/* Avatar */}
-          <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="relative"
-          >
-            <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full bg-gradient-primary p-1">
-              <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
-                <span className="text-6xl lg:text-7xl font-bold text-gradient">JC</span>
-              </div>
-            </div>
-            <motion.div
-              className="absolute -inset-4 rounded-full border border-primary/30"
-              animate={{ rotate: 360 }}
-              transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-            />
-          </motion.div>
+<motion.div
+  initial={{ scale: 0, opacity: 0 }}
+  animate={{ scale: 1, opacity: 1 }}
+  transition={{ duration: 0.5, delay: 0.2 }}
+  className="relative"
+>
+  <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full bg-gradient-primary p-1">
+    <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
+      <img 
+        src="eu2.jpg" 
+        alt="Jean Caio" 
+        className="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+  <motion.div
+    className="absolute -inset-4 rounded-full border border-primary/30"
+    animate={{ rotate: 360 }}
+    transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+  />
+</motion.div>
 
           {/* Content */}
           <div className="text-center lg:text-left max-w-xl">
@@ -111,9 +115,11 @@ export const HeroSection = () => {
               transition={{ delay: 0.7 }}
               className="flex flex-wrap gap-4 justify-center lg:justify-start"
             >
-              <Button variant="hero" size="lg">
-                <Download className="w-5 h-5" />
-                Download CV
+              <Button variant="hero" size="lg" asChild>
+                 <a href="/cv-jean.pdf" download>
+               <Download className="w-5 h-5" />
+                  Download CV
+                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <a href="https://linkedin.com/in/jeancaio" target="_blank" rel="noopener noreferrer">

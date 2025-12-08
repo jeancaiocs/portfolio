@@ -44,8 +44,8 @@ export const ContactSection = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "E-mail",
-      value: "contato@jeancaio.dev",
-      href: "mailto:contato@jeancaio.dev",
+      value: "jeancaiocs@gmail.com",
+      href: "mailto:jeancaiocs@gmail.com",
     },
   ];
 

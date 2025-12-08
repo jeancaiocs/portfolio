@@ -40,7 +40,7 @@ export const AboutSection = () => {
             <p className="text-muted-foreground leading-relaxed mb-4">
               Atualmente focado em <span className="text-primary font-medium">Java</span> e 
               <span className="text-primary font-medium"> Spring Boot</span>, desenvolvo APIs REST 
-              bem estruturadas, trabalho com bancos de dados MySQL e aplico boas práticas de 
+              bem estruturadas, trabalho com bancos de dados PostgreSQL e aplico boas práticas de 
               desenvolvimento com JPA/Hibernate.
             </p>
             <p className="text-muted-foreground leading-relaxed">
