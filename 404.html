@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Redireciona para a página principal
+      sessionStorage.redirect = location.pathname;
+      location.replace(location.pathname.split('/').slice(0, -1).join('/') || '/');
+    </script>
+  </head>
+  <body></body>
+</html>
